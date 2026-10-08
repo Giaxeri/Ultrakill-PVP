@@ -1,5 +1,62 @@
 # Changelog
 
+## V-0.2
+
+New mode:
+- ARMS RACE, on BURNING ARENA and NO MAN'S LAND. Everyone starts with the same weapon and every kill gives you the
+  next one. All 24 weapons, from the easiest to kill with to the hardest, and then your fists. On the last level one
+  punch kills, and the first punch kill wins.
+- Killing someone with your arms (punch, parry, whiplash) steals a level from them.
+- 3 kills in a row give you your health back.
+- Bots fill the lobby up to 8 players, so you can also play it alone. PVP OPTIONS > ARMS RACE BOTS changes how many.
+- Before every round there's a music vote: 4 random songs from the soundtrack or no music. Hover a song to hear a
+  bit of it, click it (or press 1-5) to vote, and everyone's picture shows up on the song they picked. The most voted
+  one plays. Nobody can move or shoot until the vote ends.
+- The winner shows up big in the middle of the screen with their picture, confetti and party horns, and the vote for
+  the next round comes right after.
+- No weapon console or jukebox in ARMS RACE: your level picks your weapon and the vote picks the music.
+- The leaderboard with everyone's level and weapon is on the left. The leader's name is gold, there and over their
+  head.
+- Messages tell everyone who took the lead, who stole a level and who's on the last level.
+
+New map:
+- NO MAN'S LAND: all of 7-2 at night, without enemies, for VERSUS and ARMS RACE. Portals all over the black sand
+  link the far corners of the map and the halls of the white tram station, and every spawn has one close by. You see,
+  shoot and slide through them, and bots use them too. The blood river kills. Best with 6-8 players.
+
+Added:
+- PVP OPTIONS > FULL HEAL ON KILL: every kill gives you your health back. Off by default, works in every mode.
+- CUSTOMIZE > ACCESSORIES, with the first one: BUNNY EARS, a gift for the early players. Everyone in the lobby sees
+  what your V1 wears.
+- Hammer clash: when two players (or a player and a bot) hit each other with the Jackhammer at the same time, both
+  get launched away like after a full-speed hammer hit.
+
+Changed:
+- The MAPS page shows the maps in three columns and everything fits on the screen. In ARMS RACE it only shows
+  the maps you can play it on, and hovering a map shows a tip for it instead of how many players it's made for.
+- VERSUS: every coin you shoot hangs in the air and flashes red for half a second before the ricochet, like V2's
+  coins in 4-4. Rivals can get out of sight, or shoot your coin first and send it back to you.
+- With many players, the rivals' health panels on the left get smaller.
+- While you type in the chat your character stands still: no moving, shooting or looking around.
+- The chat has a solid background and draws on top of the HUD and your weapon. Long messages show their end
+  while you type.
+- BURNING ARENA has 16 spawn points, 4 in each wing. Before, most of them were in the west wing.
+- You respawn at a random spawn that no one can see and that is away from everyone, instead of always the farthest
+  one. When a round starts, everyone gets a different spawn.
+- When you die, the shots you still had flying or stuck (rockets, cannonballs, saws, screwdrivers, magnets...)
+  disappear and can't hurt anyone. Bots too. Fire from someone who died stops hurting.
+- Dying resets your style meter.
+- Explosions from other players' rockets and grenades no longer cause small stutters.
+- Kill messages, respawns and parried shots no longer cause a small stutter on the big maps.
+- Leaving a lobby and joining it again could fail with a disconnection. Now it works, and if the connection with the
+  host drops for a moment you reconnect instead of being kicked out of the lobby.
+- If you quit a match to the main menu but stay in the lobby, JOIN THE MATCH in the lobby panel (or clicking the
+  match's map) takes you back in.
+- Closing the game while in a lobby leaves it properly, so you can join again right after restarting.
+- Long names and lobby IDs fit in the lobby panel.
+
+Not compatible with V-0.1, everyone in the lobby has to update.
+
 ## V-0.1
 
 New maps:
