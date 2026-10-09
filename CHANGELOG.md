@@ -1,5 +1,39 @@
 # Changelog
 
+## V-0.3
+
+Added:
+- CUSTOMIZE > CLOTHES, with three parts: BODY, WINGS and FULL LOOK. Locked items show what you need to unlock them.
+- GRAY MENACE, made by fiorexr: a gray steel body with red marks and gray wings without glow, wear one or both. It
+  unlocks after 3 ARMS RACE wins in matches with at least 6 players and no bots.
+- GABRIEL (FULL LOOK): the Judge of Hell himself. In a match he moves like a V1, holds your weapon, and shots hit him
+  where they would hit a V1. It unlocks after 62 ARMS RACE wins.
+- ARMS RACE: REROLL in the music vote. It counts like any other option: if it has the most votes when the time runs
+  out, 4 new songs come up and everyone votes again. A tie with a song goes to the roulette. Up to 2 rerolls per vote.
+- CUSTOMIZE > CODES: type a code there to unlock things.
+- A list of who is spectating, on the left of the screen. Each name has its own color.
+
+Changed:
+- CLOTHES and ACCESSORIES show every item as a tile with its picture. The description of the selected one stays
+  below.
+- ARMS RACE: NO MUSIC is a small option under the songs now (key 0). REROLL took its place (key 5).
+- ARMS RACE: in the music vote, the song you voted for keeps playing when the mouse leaves the cards.
+- BUNNY EARS come with a code now (CUSTOMIZE > CODES). If you were wearing them, enter the code to get them back.
+- ARMS RACE: when the music vote ends in a tie, a quick roulette picks one of the tied songs, the same for everyone.
+  If nobody votes, it picks one of the 4 songs the same way.
+- ARMS RACE: a bot takes the place of anyone who switches to spectator or leaves the match (also to the main menu),
+  and goes away when they come back. With ARMS RACE BOTS on OFF there are still no bots.
+- ARMS RACE: the Konami code can't turn cheats on.
+- ARMS RACE: bots land about 30% fewer shots.
+- The update notice shows up when you press PVP, not as soon as the game starts.
+- PVP OPTIONS is laid out in two columns (MATCH and DAMAGE), with more room between the rows.
+
+Fixed:
+- Players who left a match stayed on the leaderboard as "PLAYER".
+- While spectating, your weapon and arm still showed and could be used.
+- NO MAN'S LAND: the church door is locked for everyone, so nobody can get to the Jackhammer behind it.
+- NO MAN'S LAND: a few portals were buried inside hills. They stand in the open now.
+
 ## V-0.2
 
 New mode:
