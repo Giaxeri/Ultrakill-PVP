@@ -1,5 +1,19 @@
 # Changelog
 
+## V-0.3.1
+
+Added:
+- The game can install updates by itself. When a new version is out, press UPDATE in the update notice: it downloads
+  the release from GitHub, checks that it's the real one and installs it. RESTART NOW closes the game and Steam opens
+  it again with the new version. This works for the updates after this one; V-0.3.1 itself still goes in by hand.
+
+Changed:
+- NEW UPDATE AVAILABLE in the main menu opens the update notice instead of the GitHub page.
+
+Fixed:
+- Joining a match put your alternate weapons (revolver, shotgun, nailgun) back to the normal ones. You keep them now.
+- The weapon console offered alternates for the railcannon and the rocket launcher, which don't exist.
+
 ## V-0.3
 
 Added:
