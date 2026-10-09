@@ -18,7 +18,7 @@ Everyone in a lobby needs the same version. The main menu tells you when there's
 
 ## Discord
 
-https://discord.gg/MtmMgxhCC Feedback received!
+https://discord.gg/DgthQS7RUx join discord!
 
 To spectate, turn off PVP ENABLED in the pause menu. Fly with the movement keys and the mouse (Jump / Slide go up and
 down, Dash or the mouse wheel change the speed). Fire and Alt fire follow the next or previous player.
