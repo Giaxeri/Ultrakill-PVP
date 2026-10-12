@@ -1,4 +1,3 @@
-# Changelog
 
 ## V-0.4
 
@@ -58,7 +57,6 @@ Fixed:
 - NO MAN'S LAND: a secret door in the white station opened on its own and let you into a dark room that was
   meant to stay closed. It stays shut now.
 - NO MAN'S LAND: the terminal on the golden pagoda at the start of the level is gone.
-- GRAND HALL: the black holes in the ceiling are closed.
 - The PLAYERS ONLINE number in the main menu could stay behind, for example after the host left a match and
   everyone went back to the menu. It follows the people coming and going now, and it is checked again every time
   the menu opens.
