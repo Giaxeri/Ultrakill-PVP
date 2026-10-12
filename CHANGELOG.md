@@ -1,18 +1,67 @@
 # Changelog
 
-## V-0.3.1
+## V-0.4
 
-Added:
-- The game can install updates by itself. When a new version is out, press UPDATE in the update notice: it downloads
-  the release from GitHub, checks that it's the real one and installs it. RESTART NOW closes the game and Steam opens
-  it again with the new version. This works for the updates after this one; V-0.3.1 itself still goes in by hand.
+New maps:
+- GRAND HALL (VERSUS): the white hall at the end of 7-3, with the stairs up to the side galleries and the bridge in
+  the middle. Made for 1 v 1.
+- HARBOR LIGHTS (VERSUS and ARMS RACE): the path of green lamps from the start of 5-4, four times over. The four
+  paths meet at an island with a lighthouse that can be seen from anywhere, with a spiral stair up to the lantern.
+  A DUAL WIELD waits up there: 30 seconds with a second weapon, and it comes back a minute after someone takes it,
+  with a foghorn so everyone knows.
+  It is all under water like in the level, but fire still burns and electricity doesn't shock the one who shoots.
+  Made for 6-8 players.
+
+New in VERSUS:
+- Preparation time. When a map loads everyone starts in a dark waiting hall, the same one for every map: 8 weapon
+  consoles along the sides, a jukebox on the stage, and a parkour that spirals from the balcony up to a relic
+  near the roof (taking it tells you your time). Weapons can't be fired in there, so nobody rockets their way up,
+  and a slam jump is only a normal jump; the arms still work. You get a minute
+  and a half to pick weapons, with a clock at the top of the screen and on the wall. Nobody can be hurt until it
+  runs out, then everyone goes to their spawn in the map and the fight starts. Joining or restarting after that puts
+  you straight into the fight.
+  Press F2 to vote START NOW: the fight starts as soon as everyone but one has voted. TAKE CARE plays while you
+  get ready, until the fight starts or someone picks another song in the jukebox.
+- Teams, up to 4: RED, BLUE, GREEN and YELLOW. In the waiting hall there are four colored pads on the floor, two on
+  each side: step on one to join that team. F3 opens the team list, where you can also pick with 1-4 (0 leaves
+  your team). Teammates can't hurt each other, name tags take the team color and the scoreboard adds up the
+  kills of each team. F3 also works during the fight, to pick a team or change it, but only once a minute. Nobody
+  has to pick one: without a team you fight alone.
+- NEGATIVE, a new BODY and WINGS for CUSTOMIZE > CLOTHES: the V1 with its light and dark swapped. It unlocks by
+  taking the relic at the top of the parkour in the waiting hall. Made by fiorexr.
+- FULL LOOK has every set now: GRAY MENACE and NEGATIVE put on their body and wings in one pick, with the same
+  unlock as their parts.
+- GABRIEL has a WINGS box in FULL LOOK. Untick it and he wears only the armor and the swords: no wings, no halo
+  and no blue trail.
 
 Changed:
-- NEW UPDATE AVAILABLE in the main menu opens the update notice instead of the GitHub page.
+- The warning sound of a coin about to fire is as loud for everyone, wherever they are. Coins give it in ARMS RACE
+  too, where they still fire at once.
+- PVP OPTIONS: COIN DAMAGE, a damage multiplier only for coin shots, next to the other DAMAGE ones. 0.5x halves them.
+- Style in every PVP mode: the meter was built for killing crowds, so against players it never got far. Hits on
+  players count for more, a kill gives a KILL bonus, the meter drains slower and weapons don't go stale, so a long
+  streak without dying can reach ULTRAKILL now. Dying still resets it.
+- MAPS: every map card opens with the same animation when you change tab, and ULTRAKILL ARENA shows a single
+  COMING SOON instead of one on each map.
+- ARMS RACE, every map: healing is halved. Blood gives half the health it used to, and a parry heals half the bar
+  instead of all of it.
+- The NEW UPDATE AVAILABLE box has a GITHUB button next to UPDATE, for those who want to download the zip
+  themselves. UPDATE still installs it from inside the game.
 
 Fixed:
-- Joining a match put your alternate weapons (revolver, shotgun, nailgun) back to the normal ones. You keep them now.
-- The weapon console offered alternates for the railcannon and the rocket launcher, which don't exist.
+- With Configgy installed, the tabs on the left of MAPS and CUSTOMIZE no longer overlap.
+- A dash jump done while the game froze for a hit or a parry went straight up and still used the stamina. It keeps
+  the dash speed now.
+- Punching a saw right before it hit you sent damage back to its owner, wherever they were. Saws can only be parried
+  as projectiles now.
+- The SCREWDRIVER kept drilling after the player it was in died, or after its owner died. It comes out now.
+- NO MAN'S LAND: a secret door in the white station opened on its own and let you into a dark room that was
+  meant to stay closed. It stays shut now.
+- NO MAN'S LAND: the terminal on the golden pagoda at the start of the level is gone.
+- GRAND HALL: the black holes in the ceiling are closed.
+- The PLAYERS ONLINE number in the main menu could stay behind, for example after the host left a match and
+  everyone went back to the menu. It follows the people coming and going now, and it is checked again every time
+  the menu opens.
 
 ## V-0.3
 
