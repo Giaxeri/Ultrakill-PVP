@@ -1,8 +1,7 @@
 # Ultrakill-PVP
 
 PVP mod for ULTRAKILL. Fight other players with every weapon and arm in the game, with or without Steam.
-
-![BODYCAM 01: a V1 in WHITE SPACE](docs/screenshots/bodycam-01.jpg)
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/5820d8d3-75b4-49a4-8bed-2c9c9bf7ef5b" />
 
 ## Installation
 
