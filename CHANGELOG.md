@@ -1,3 +1,263 @@
+# Changelog
+
+## V-0.8
+
+New map:
+- FERRYMAN'S SHIP: all of 5-2 with the Ferryman's ship raised, alone in a stormy sea, in VERSUS and ARMS RACE. Speed
+  belts run along every edge of the ship (two lanes, one each way) and jump pads on platforms by the hull take you up
+  to the roofs. The sea kills.
+
+MAPS page:
+- New page: every map in a carousel, newest first, with a short clip of each one playing in the middle. Arrows, the
+  mouse wheel or the left and right keys turn it, and a row of small pictures under it jumps straight to a map. Put
+  the mouse on the map in the middle and it opens wide to show more of it, with its recommended players.
+- Pick a map, then PLAY VERSUS or PLAY ARMS RACE: no more mode tabs. Each map has a short description.
+- CUSTOM LEVELS works the same way, with < PVP MAPS to go back.
+- On the left: PVP MECHANICS (clips of how the mod's mechanics work, with NEW on what changed), DISCORD and CREDITS.
+
+Votes:
+- The map vote is on a tablet in your hands, BODYCAM style: your V1 points at it and taps the map you want. The mode
+  vote in the waiting hall and the ARMS RACE music vote are on the tablet too, with their own tap and result sounds.
+- The tablet shows everyone's pictures on the maps they voted.
+- The host can start a vote for a new map from the pause menu (MATCH > VOTE FOR A NEW MAP). A tie is decided by duels
+  and a roulette; if the winner has both modes, a second vote picks VERSUS or ARMS RACE.
+
+PVP OPTIONS:
+- PVP OPTIONS are on the tablet: drag the bars. Everyone can open LOBBY SETTINGS from the pause menu to see the host's
+  settings.
+- MORE SPECIFIC NERF sets the damage of every weapon and variant, from the PIERCER to the ground slam, in multiplier
+  or in damage. FURTHER SPECIFIC OPTIONS change head, body, limbs or explosions where they apply. ARMS & MORE also has
+  the timing of the coin's red flash.
+- PRESETS: save the settings and load them again in one tap.
+- NAMETAGS: the host can hide the rivals' name tags. SHARE BLOOD is gone (blood is always shared).
+- Respawn is instant. RESPAWN TIME is gone.
+
+Kill feed and chat:
+- Kill feed in the top right corner: everyone's pictures, the weapon they had out (in its variant's color) and an icon
+  of how (coin, explosion, ground slam, parry, fall...). A WHIPLASH CLASH shows there too.
+- Emojis in the chat: paste them, use Win + . or type :sob:, :skull:, :fire:...
+
+Lobbies:
+- GitHub version: EPIC / STEAM in the LOBBY panel. STEAM lobbies are the ones the Thunderstore version uses, so you
+  can play with those players too.
+- The lobby list shows each lobby's mode (VERSUS - WAITING HALL, FIRST TO 20 - TEAMS, ARMS RACE...).
+- SPECTATE in the teams panel.
+- Joining a match already going shows everyone's kills and deaths so far.
+- If you can't reach the host for 20 seconds, you leave the lobby with a message about what may be blocking it (VPN,
+  firewall, antivirus) instead of staying stuck. This also stops one stuck player from breaking the lobby for everyone.
+- 24 hours without touching anything in a lobby takes you out of it.
+
+Customize:
+- New accessories: the HAKITA and PITR plushies (with a code, thanks for 1K downloads) and the V1 PLUSHIE (it unlocks
+  when the GitHub repository reaches 15 stars). A code now shows what you got in a small card.
+- Long texts (what unlocks a skin) no longer go off the panel.
+
+Gameplay:
+- Coins work the same in every mode: in ARMS RACE they also hang for half a second before they fire.
+- Assists are fully off in PVP: major assists and auto-aim. The ASSIST options page is crossed out on PVP maps.
+- Online, the pause menu no longer freezes the game for you: you keep falling and things keep moving, you just can't
+  act until you close it.
+- Breaking glass and other breakable things happens for everyone, also for players who join later.
+- CHESS: dying with a piece in your hands puts it back on its square, loose pieces go back by themselves, and the sign
+  says whose turn it is.
+
+Maps:
+- CLIMAX's gravity flips again.
+- More FPS in HARBOR LIGHTS and CYBER GRIND: lights far from you are off until you get closer (Display > Turn off far
+  lights).
+- GRAND HALL: the red exit door at the end is walled up with the hall's own marble.
+- NO MAN'S LAND: the frames of the portals no longer look broken.
+- The jukebox is the Cyber Grind terminal, with a sign on top, and its songs no longer jump to the start of a random
+  part after the game was in the background.
+
+Fixed:
+- Respawning after dying with the pause menu open left you stuck in place.
+- HIDE HUD now says which key brings it back, no longer turns on when you vote YES right as a vote ends, and also hides
+  the weapons' charge meters.
+
+Credits:
+- CREDITS on the MAPS page. HASHEMELBAD and R4NDOMPER5ON join KAMERADE in AUDIO DESIGN.
+
+Thunderstore version:
+- It no longer restarts the game by itself: when mods change, it tells you to close the game and start it again from
+  your mod manager.
+
+## V-0.7
+
+Custom levels:
+- With Angry Level Loader installed, MAPS has a CUSTOM LEVELS tab with the levels you have, and LOAD LEVEL FILE adds a
+  .angry file from your PC. The host picks one and everyone plays it in VERSUS. Enemies, arenas and the end of the
+  level are turned off.
+- Everyone needs the same level file. A player who doesn't have it, or has another version, is told which level to get
+  and stays out.
+- Level makers can put empty objects named `PVP Spawn` where players should appear.
+
+Maps:
+- NO MAN'S LAND uses the game's own portals: you see through them like in the game, and every projectile, the
+  whiplash, coins and gasoline go through them. The map also loads about a second and a half faster.
+- CYBER GRIND looks the same for everyone. It used to take each player's own Cyber Grind theme, textures and fog.
+- The waiting hall looks the same in CYBER GRIND as on the other maps. It used to be darker there.
+- PIANO ROOM: the weapon console is a little further from the edge of the stage.
+- ARMS RACE bots get around better in BURNING ARENA, HARBOR LIGHTS and CYBER GRIND.
+
+New:
+- Winning a round ends with a big VICTORY (DRAW on a tie) and its own sound, which everyone hears, before the winner
+  card.
+- Cheats are off on every PVP map, also in VERSUS and in the waiting hall. The host can allow them with ALLOW CHEATS in
+  PVP OPTIONS.
+- The lobby list has KICK for the host (click twice) and MUTE for everyone (hides that player's chat for you). A kicked
+  player can only come back with an invite.
+- The host gets a warning when a player keeps taking hits without losing health (god mode). `Kick god mode = true` in
+  the config kicks them instead.
+- Every PVP key can be changed in the config file, under `[Controls]`.
+- `Connect at startup = false` in the config makes the mod log in to Epic only when you press PVP.
+
+Changed:
+- Mod check: known mods are on a list, and the others are checked by what they patch. The popup tells you to turn the
+  incompatible ones off in your mod manager and restart. The mod no longer renames other mods' files.
+- Going back to the waiting hall stops the song someone picked and plays TAKE CARE again.
+- Another player's parry no longer freezes your game for a moment.
+- Leaving a match and coming back keeps your kills and deaths, so it doesn't give you lives back.
+- The rivals panel uses the same weapon names as the kill feed.
+- Esc closes the PVP popups.
+- The PLAYERS ONLINE counter in the main menu is gone. The mod sends no player count and no analytics.
+- Many fixes against cheating and fake or broken network messages (damage limits per weapon, limits on effects, names
+  and chat without hidden characters).
+- If the in-game UPDATE gets a file that doesn't match its signature, it tells you not to install it by hand.
+- The Thunderstore version only uses Steam lobbies now (public list, JOIN BY ID, invites, KICK and MUTE, and a new
+  host if the host leaves). It doesn't play with the GitHub version, which still uses Epic.
+
+Fixed:
+- The fire of another player's gasoline or napalm hurt you while you were spectating.
+- Errors in the log when the game went from the intro to the main menu.
+
+## V-0.6.1
+
+Match modes (VERSUS):
+- In FIRST TO X KILLS, TIME LIMIT and LAST ONE STANDING, going to spectate during a round keeps you out until the next
+  round, so nobody can hide. Turning off PVP ENABLED in the middle of a round asks for a second click. The scoreboard
+  shows OUT next to them.
+- Joining a match that already started puts you in as a player, also when you come back. In LAST ONE STANDING you
+  spectate until the next round instead, unless the round started with fewer than 2 players.
+- LAST ONE STANDING with teams: each team's row on the scoreboard shows the lives it has left.
+- The jukebox song stops when someone wins a round.
+- New pictures on the vote cards.
+
+Changed:
+- The Knuckleblaster can't parry anymore. The host can turn it back on with KNUCKLEBLASTER PARRY in PVP OPTIONS.
+- Chat works anywhere while you are in a lobby: the main menu, the menu pages and normal levels, not only the PVP map.
+- The waiting hall looks the same on every map. The light and fog of some maps used to tint it.
+
+Fixed:
+- CYBER GRIND: respawning while the grid was shifting could leave you stuck under the cubes.
+- ARMS RACE bots could get stuck in a corner of CYBER GRIND with no way out.
+- PVP ENABLED stayed off after leaving a map as a spectator.
+
+## V-0.6
+
+Match modes (VERSUS):
+- VERSUS has a way to win now. In the waiting hall everyone votes the mode: FREE FOR ALL, FIRST TO X KILLS, TIME
+  LIMIT or LAST ONE STANDING, and then TEAMS or NO TEAMS. Click a card or press 1-4. A vote closes as soon as everyone
+  has voted, and a tie is settled by a roulette.
+- The host sets the number on the MATCH OPTIONS screen after the vote, or later from the new MATCH box in the pause
+  menu: KILLS TO WIN (5-100, 20 by default), TIME LIMIT (1-30 minutes, 10) or LIVES (1-10, 3). Changing it during the
+  fight restarts the match.
+- FIRST TO X KILLS: kills count per team. TIME LIMIT: the most kills wins, and a tie goes to SUDDEN DEATH until someone
+  leads. LAST ONE STANDING: with no lives left you spectate until the next round, and the last player or team alive
+  wins. It needs 2 players or more, and anyone who joins in the middle of a round waits as a spectator.
+- The scoreboard shows the mode: kills to win, time left, or who is still alive and their lives.
+- After a win comes the winner screen and then one more vote: PLAY AGAIN starts the same mode at once with the score
+  at zero, CHANGE MODE goes back to the waiting hall.
+- With NO TEAMS nobody picks a team that round. With TEAMS everyone is in one: if you don't pick, you go to RED or
+  BLUE, whichever has fewer players. The team panel opens by itself and you can click a team.
+- During the fight the host can ask to GO BACK TO THE WAITING HALL. Everyone has 20 seconds to vote with F1 (yes) or
+  F2 (no), and it passes when all but one say yes (both, with 2 players).
+
+CYBER GRIND:
+- The grid shifts like in the real Cyber Grind. Every 12 kills the cubes rise and sink into new patterns, the old
+  stairs and jump pads go down and new ones come up. The plaza in the middle stays.
+- Brighter, and the grid changes colour with every shift: blue, green, yellow, red, then rainbow.
+
+CLIMAX:
+- The inverted gravity counts on the whole map. If you are out in the middle when it flips, you fall into space.
+  Every flip has a 4 second warning with a countdown and its own sound.
+- You can jump as high as you want both ways. Only falling out the bottom kills (out the top with inverted gravity),
+  and you can land on the outside of the ceiling. Anyone still outside dies on the next flip.
+
+New:
+- If the host leaves, the match goes on: the player who has been in the lobby longest becomes the host.
+- Waiting hall: new statues with the Ultrakill-PVP logo.
+- MAPS: an UPDATED tag on CLIMAX, HARBOR LIGHTS and CYBER GRIND.
+
+Changed:
+- Nails from the nailguns can't be parried anymore. Saws still can.
+- Coins never bounce to a teammate.
+- Better FPS all around, mostly with rockets and napalm (the big stutters are gone), bots, CYBER GRIND and busy
+  lobbies.
+- Mod check: Preloading_Splash, FOV_Changer and SpawnerArmExtras are allowed.
+
+Fixed:
+- Playing on HARMLESS or LENIENT gave you 200 health in PVP. Everyone gets the same health now.
+- GRAND HALL: parts of 7-3 outside the hall turned back on a few seconds after the map loaded.
+- CYBER GRIND: every stair threw an error when it finished rising.
+- The mod no longer writes debug files into the BepInEx folder.
+
+## V-0.5
+
+New map:
+- CYBER GRIND (VERSUS and ARMS RACE): the Cyber Grind four times wider. Sixteen of its patterns side by side, with
+  their stairs and jump pads, and a flat plaza in the middle with a weapon console and a jukebox. No waves come, dying
+  just sends you back to a spawn, and no score is saved. Made for 6-8 players.
+
+HARBOR LIGHTS:
+- The water is gone. Stone causeways with lamps join the rocks of each path, so you walk from the lighthouse out to
+  the far rocks, and the storm from the Leviathan fight rains over the whole map, with lightning and thunder.
+- ARMS RACE bots walk the causeways instead of swimming.
+
+New:
+- SPLATTER: ground slam onto a player stunned by a whiplash clash and they burst, with a lot of blood. It always kills.
+- PVP OPTIONS: HEAL RATE, from 0x to 2x, for blood and parries. FULL HEAL ON KILL doesn't change.
+- Pause menu: an INVITE box at the bottom right. STEAM INVITE does the same as F6, and the host can make the lobby
+  public or private from there without leaving the match.
+- While you are in a lobby, IN LOBBY and the player count stay at the top right of the menus.
+- "<name> joined the game" shows when someone arrives on your map. "Joined the lobby" only goes to the log now.
+- Mod check when you press PVP: mods that change health, movement, weapons, damage, parries or the game speed show as
+  NOT COMPATIBLE. Untick them and press RESTART NOW to turn them off. With one of them on you can't play PVP, and if one
+  is turned on during a match you leave it. Visual mods are fine.
+- The NEW UPDATE AVAILABLE box has a DISCORD button.
+- MAPS: new maps have a NEW tag on their picture.
+
+Changed:
+- Whiplash clash: a new look, with a parry flash and a big CLASH. The loser stays stunned for 1.8 seconds (it was
+  1.2), the winner can't be hurt by players for 1.5 seconds and gets a style bonus, and nobody can fire during the
+  clash or while stunned.
+- Shotgun parry: parrying one pellet of a shotgun blast stops the whole blast, and the shooter gets one parry hit as
+  big as the blast (SHOTGUN PARRY).
+- Saws from the sawblade launchers can be parried back as projectiles.
+- COIN DAMAGE counts every shot that goes through a coin now: railcannon, charged revolver and the rest, not only the
+  normal revolver.
+- Dead Star (rockets frozen until they turn blue, then blown up): at most 70 damage to one player.
+- Hitting a core or a rocket with the jackhammer: at most 35 damage, the same as the core exploding by itself (it was
+  70 from any distance).
+- Nailguns, every PVP mode: ATTRACTOR has twice the nails and recharges twice as fast, and OVERHEAT and JUMPSTART
+  fire as fast as ATTRACTOR.
+- Sawblade launchers, ARMS RACE: ATTRACTOR has 20 saws and recharges twice as fast, and OVERHEAT and JUMPSTART fire
+  as fast as ATTRACTOR.
+- Waiting hall: no wall jumps.
+
+Fixed:
+- RESTART NOW and the update restart reopened the game without the r2modman or Thunderstore profile it was started
+  with. They keep it now.
+- When Epic can't log in because the Windows Credential Manager service is off, the game says so instead of just
+  failing.
+
+## V-0.4.1
+
+Fixed:
+- HARBOR LIGHTS, ARMS RACE: everyone started and came back on the island, right on top of each other. Players and
+  bots start spread over the four paths now, like in VERSUS, and the bots swim from rock to rock down to the
+  lighthouse.
+- GRAND HALL: in a 1 v 1 the two players start at opposite ends of the hall, facing each other.
 
 ## V-0.4
 

@@ -1,6 +1,18 @@
 # Third-party notices
 
-Ultrakill-PVP is MIT-licensed (see `LICENSE`).
+The Ultrakill-PVP release files (the DLL and the docs that come with it) are MIT-licensed (see `LICENSE`), except
+the Epic Online Services C# bindings compiled into the DLL, which stay under Epic's SDK license (see below).
+The source code is not public.
+
+Sounds: the victory jingle is by kamerade, made for Ultrakill-PVP. The VICTORY voice was made with SAM (Software
+Automatic Mouth, © SoftVoice, Inc.) through the sam-js port (https://github.com/discordier/sam).
+
+The Discord logo on the DISCORD button is a trademark of Discord Inc. The drawing comes from Simple Icons
+(https://simpleicons.org, CC0).
+
+The chat emojis are Twemoji graphics (https://github.com/jdecked/twemoji), Copyright 2019 Twitter, Inc and
+other contributors, licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/). They were scaled and put
+together in one picture.
 
 The release zips include the official BepInEx 5.4.23.3 release, unmodified
 (https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.3):
