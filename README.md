@@ -24,13 +24,18 @@ Visual mods are fine. The mod never changes or deletes other mods' files.
 
 ## Lobbies
 
-The LOBBY panel has EPIC and STEAM at the top. EPIC (the default) uses Epic Online Services, so everyone with this
+The PVP button opens the list of open lobbies, with each lobby's map, mode and players; pick one to see who is in
+and the host's rules, then JOIN. CREATE LOBBY makes your own, and JOIN BY ID joins a friend's. In a lobby, the host
+picks the mode and the map on the lobby page, and everyone sees who is in and chats.
+
+The list has EPIC and STEAM at the top. EPIC (the default) uses Epic Online Services, so everyone with this
 version plays together, with or without Steam. STEAM uses Steam lobbies, the same ones the Thunderstore version uses,
 so you can also play with those players. You can switch when you are not in a lobby; the mod remembers your choice
 (`Network` in the config file). If Epic can't start, the mod uses Steam lobbies.
 
-In the lobby list the host can KICK a player (click twice; they can only come back with an invite), and anyone can
-MUTE a player's chat. If the host leaves, the match goes on with a new host. Cheats are off on PVP maps unless the
+PLAYERS IN THE LOBBY in the pause menu (and the lobby page) lists everyone. The host can KICK a player; a kicked player
+can't come back to that lobby, even if the host changes, until the host presses UNKICK. Anyone can REPORT a player to
+the mod's author (see below). If the host leaves, the match goes on with a new host. Cheats are off on PVP maps unless the
 host turns on ALLOW CHEATS in PVP OPTIONS.
 
 ## Custom levels
@@ -56,6 +61,12 @@ rotation is the way they face. Without them the mod picks spawn points on the le
 - In a Steam lobby (STEAM picked, or Epic couldn't start), the people in it can see your Steam name, avatar and Steam
   ID, like in any Steam lobby, plus your V1 look. Traffic goes through Steam's relays (Steam Datagram Relay), so nobody sees your
   IP address there either.
+- A public lobby shows the names of the players in it to anyone looking at the lobby list (no IDs).
+- REPORT sends the player's name and id, yours, what you ticked and wrote, and the lobby (map, mode, host) to the mod's
+  author, in a private Discord channel. Nothing is sent unless you press SEND REPORT.
+- The mod's author can kick and ban players (a signed bans list, downloaded from this repo every few minutes; it only
+  has codes made from Steam or Epic IDs, no names) and can send signed admin orders in lobbies (an EVENT message, a boss
+  for everyone to fight, health, weapons, freeze). Everyone sees who sent them; a banned player sees how long is left.
 - On start the mod asks GitHub if there's a newer version (you can turn it off in the same config file). There's no
   player count and no analytics. Nothing else is sent anywhere.
 
@@ -86,12 +97,12 @@ https://discord.gg/MtmMgxhCC Feedback received!
 
 | Key | Action |
 |-----|--------|
-| T | Chat, anywhere while you are in a lobby (you can change it in OPTIONS > CONTROLS) |
+| T | Chat, anywhere while you are in a lobby (every key of the mod can be changed in OPTIONS > PVP CONTROLS) |
 | F1 | Hide the HUD |
 | F2 | Preparation: vote START NOW |
 | F1 / F2 | Vote yes / no when the host asks to go back to the waiting hall |
 | F3 | Teams: pick or change your team (VERSUS, when the round has teams; you can also click a team) |
-| Mouse, click or 1-9 | Votes on the tablet (map, waiting hall mode and teams, ARMS RACE music): point and tap |
+| Mouse, click or 1-9 | Votes on the tablet (map, waiting hall mode and teams, music): point and tap. With a controller, a stick moves the finger, A taps and B goes back |
 | Left / Right, Enter | Host, MATCH OPTIONS: change the number for the mode, DONE |
 | F6 | Steam invite (also in the pause menu) |
 | F7 | Leave the lobby |
@@ -99,9 +110,10 @@ https://discord.gg/MtmMgxhCC Feedback received!
 | F10 | Freeze the mirror dummy |
 | F11 | Sparring: the mirror dummy's projectiles hurt you |
 | Punch right before a hit | Parry (Feedbacker; the Knuckleblaster only with KNUCKLEBLASTER PARRY on in PVP OPTIONS) |
-| Mash whiplash | Win a whiplash clash |
-| 1-5, 0 | ARMS RACE music vote: 1-4 a song, 5 REROLL, 0 no music |
-| Left / Right, mouse wheel | MAPS: turn the carousel (or click a map, or the small pictures under it) |
+| Mash whiplash | Win a whiplash clash (an extra key or mouse button can be set in OPTIONS > PVP CONTROLS) |
+| 1-5, 0 | Music vote (ARMS RACE, CORE TAG): 1-4 a song, 5 REROLL, 0 no music |
+| Left / Right, mouse wheel | Lobby page: turn the maps carousel (or click a map, or the small pictures under it) |
+| Hold jump at a wall | WALL RUN, when it is on (CORE TAG, or if the host turns it on) |
 | :name: in the chat | An emoji, like :sob:, :skull: or :fire: (pasting emojis works too) |
 
 To spectate, turn off PVP ENABLED in the pause menu, or pick SPECTATE in the teams panel. Fly with the movement keys

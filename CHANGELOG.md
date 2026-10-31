@@ -1,5 +1,60 @@
 # Changelog
 
+## V-0.9
+
+New mode:
+- CORE TAG: some players get a core on their head that blows up at a random time; punch someone to pass it. The last
+  one alive wins. Fists, Whiplash and the Freezeframe only, and nothing hurts except the core and falling. Whoever has
+  a core moves faster in everything (run, air, dash, slide, Whiplash, wall run) and gets the dash back sooner. There
+  are whiplash orbs all over the map, and it starts with the music vote, like ARMS RACE.
+- CORE TAG maps: VERDANT RUINS, SUNKEN SPIRAL, BURNING ARENA, NO MAN'S LAND and FERRYMAN'S SHIP.
+
+New maps:
+- VERDANT RUINS: a green valley with a ruined temple, a tower and mountains, under a glass dome.
+- SUNKEN SPIRAL: a desert canyon going down in rings to a pyramid, with ledges to run along its wall.
+- Both in VERSUS and CORE TAG.
+
+New PVP menu:
+- Every lobby in a list with its map's clip; pick one to see who is in and the host's rules. JOIN BY ID, CREATE LOBBY
+  and EPIC / STEAM are on the same page.
+- In a lobby, its own page: the host picks the mode and the map, everyone sees who is in and chats.
+- CUSTOMIZE is in the PVP menu now.
+
+Players, kick and report:
+- PLAYERS IN THE LOBBY in the pause menu, for everyone. The host can KICK from there or from the lobby page, and a
+  kicked player can't come back to that lobby, even if the host changes. UNKICK lets them back.
+- REPORT: report a player from the PLAYERS page or the lobby page. Tick what they did, write what happened and it goes
+  to the mod's author.
+- The mod's author can ban players for a while (the 3rd ban is forever); a banned player sees how long is left when
+  pressing PVP.
+- The mod's author can run events in a lobby: a message on screen, or one of the game's bosses for everyone to fight
+  together, with its own music. Players can't hurt each other while it lives. Everyone sees who sent it.
+
+Movement and combat:
+- WALL RUN: jump at a wall and hold jump to run along it, Titanfall style. Tap jump to kick off and keep your speed. On
+  in CORE TAG; the host can turn it on or off for any mode in PVP OPTIONS > RULES.
+- Speed effect: speed lines at the edges of the screen, a wider view and a light shake when you go very fast. On in
+  CORE TAG; the host can turn it on or off for any mode in PVP OPTIONS > RULES.
+- SCREWDRIVER: parry it with the Feedbacker as it reaches you, and if it sticks in you, rip it out with the
+  Knuckleblaster and throw it back like a dart.
+- Knuckleblaster blast: holding the punch with the red arm knocks every nail and magnet off your body, with a clatter.
+- JumpStart: the zapper charges twice as fast on players, sawblades conduct twice as much and nails conduct too.
+- Burning: players set on fire by gasoline now visibly burn, and you see the flames too.
+
+Controls:
+- OPTIONS > PVP CONTROLS: every key of the mod on its own page.
+- WHIPLASH CLASH: set an extra key (or mouse button) to mash in OPTIONS > PVP CONTROLS; your Whiplash key still works.
+- Controller players can turn on auto-aim in PVP in OPTIONS > ASSIST (0% to 20%). It only works while you play with
+  the controller.
+- Controllers can reach PVP OPTIONS in the pause menu and use the tablets (sticks move the finger, A taps, B goes back).
+
+Fixes:
+- On some ULTRAKILL builds the mod failed to start half of its features (for example, bots took no damage).
+- After pausing in a lobby, the fist stayed off until you changed arms.
+- The mouse is free in the pause menu during the music and mode votes.
+- In CLIMAX, the waiting hall was upside down if the match ended with the gravity flipped.
+- Tapping a card on the tablet sometimes hit the one in the middle instead of the one you pointed at.
+
 ## V-0.8
 
 New map:
