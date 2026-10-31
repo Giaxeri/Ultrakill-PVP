@@ -1,5 +1,22 @@
 # Changelog
 
+## V-0.9.1
+
+Hotfix. Plays with V-0.9.
+
+Boss events:
+- Everyone in the lobby sees the boss and can hit it (before, only the host did).
+- The boss hurts in CORE TAG too.
+- Dying to the boss doesn't count: no deaths on the scoreboard, no lives lost, nothing in ARMS RACE.
+- The boss doesn't chase or hurt players who are spectating, and only goes for players who are in the map (not in
+  the menu or still loading).
+- When it dies, VICTORY shows a table of the event: most damage, most deaths, the last hit, and everyone's damage,
+  deaths and time chased.
+
+Fixes:
+- CORE TAG: the song kept playing after someone won, and during the next music vote.
+- A map no longer fails to load when the game's settings file is busy for a moment.
+
 ## V-0.9
 
 New mode:
