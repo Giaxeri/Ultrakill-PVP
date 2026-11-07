@@ -1,5 +1,46 @@
 # Changelog
 
+## V-1.0
+
+Plays with V-0.9 and V-0.9.1.
+
+Bosses:
+- The lobby's host can spawn a boss: type `/boss NAME HEALTH` in the chat (for example `/boss minos 100k`), and
+  `/boss end` removes it. The host is reminded in the chat when a match starts.
+- GABRIEL (his second fight) is an event boss, as big as MINOS PRIME.
+- Bosses no longer freeze after being hit or switching targets, come back when they fall out of the map or sink into
+  the ground, finish their attack before going for someone else, and go for someone else after a kill.
+- Everyone hears the boss's voice lines. Only the chased player's game makes its attacks: no more damage, parries or
+  style from someone else's fight.
+- If the chased player's game doesn't answer (an older version, still loading), the boss goes for someone else.
+- No healing while a boss event lasts.
+- In a timed match the clock stops during a boss event instead of ending the match.
+- MINOS PRIME is bigger. V2 is no longer an event boss.
+
+New map:
+- PANOPTICON: the arena of the Flesh Panopticon and Sisyphus Prime from P-2 (VERSUS).
+
+Spawn protection:
+- In VERSUS and ARMS RACE, after respawning you take no damage for 1.5 seconds, until you move or shoot. A blue aura
+  at the edges of your screen shows it; others see you glow like an enemy blessed by an Idol. The host sets it in
+  PVP OPTIONS > MATCH.
+
+CORE TAG:
+- Whoever has a core lands close punches that are a bit off, and right next to someone even with their back to them.
+- Freezeframe rockets pass the core too.
+- Without a core, the Whiplash needs 1.5 seconds after it catches something; a circle at the bottom of the screen
+  shows when it's ready.
+
+Customize:
+- New skins by fiorexr: LOVELY WINGS (win a game of CORE TAG) and BLACK 100% (defeat 100 event bosses with 25K
+  health or more).
+- The V1 PLUSHIE is unlocked for everyone (it pops up the first time you open CUSTOMIZE).
+
+Maps and menus:
+- VERDANT RUINS and SUNKEN SPIRAL have the weapon console and the jukebox.
+- No jukebox in ARMS RACE: the music vote picks the song.
+- The PVP menu's lobby list no longer has the GIFs.
+
 ## V-0.9.1
 
 Hotfix. Plays with V-0.9.

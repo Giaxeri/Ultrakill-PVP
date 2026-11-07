@@ -115,6 +115,7 @@ https://discord.gg/MtmMgxhCC Feedback received!
 | Left / Right, mouse wheel | Lobby page: turn the maps carousel (or click a map, or the small pictures under it) |
 | Hold jump at a wall | WALL RUN, when it is on (CORE TAG, or if the host turns it on) |
 | :name: in the chat | An emoji, like :sob:, :skull: or :fire: (pasting emojis works too) |
+| /boss NAME HEALTH in the chat | Host: a boss for everyone to fight, like `/boss minos 100k` (`/boss` lists them, `/boss end` removes it) |
 
 To spectate, turn off PVP ENABLED in the pause menu, or pick SPECTATE in the teams panel. Fly with the movement keys
 and the mouse (Jump / Slide go up and down, Dash or the mouse wheel change the speed). Fire and Alt fire follow the
